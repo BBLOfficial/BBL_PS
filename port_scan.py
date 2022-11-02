@@ -3,10 +3,14 @@ import sys
 import time
 import threading
 
+
 usage = "python3 port_scan.py TARGET START_PORT END_PORT"
 
 print("-"*70)
-print("BBL PS")
+print("\039[1;32m This text is Bright Green  \n")
+print(" _  _      _   _")
+print("|_||_||   |_| |_")
+print("|_||_||__ |    _|")
 print("-"*70,)
 
 if(len(sys.argv) != 4):
